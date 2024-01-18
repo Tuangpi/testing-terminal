@@ -1,0 +1,19 @@
+{
+  "name": "Example Terminal Backend",
+  "description": "For testing the Stripe Terminal SDK example apps. https://stripe.com/docs/terminal",
+  "repository": "https://github.com/stripe/example-terminal-backend",
+  "keywords": [
+    "ios",
+    "android",
+    "javascript",
+    "stripe",
+    "terminal",
+    "stripe terminal"
+  ],
+  "env": {
+    "STRIPE_TEST_SECRET_KEY": {
+      "description": "sk_test_51NuoO1IpVcs5xQojmNVvfbJSGMzu6ICD7HZPJMVSDM8XpA8g8X3hZENzhhullavFNmvxWptSLMuxCrLHfjLzzh8700LDRRR8g0",
+      "required": true
+    }
+  }
+}

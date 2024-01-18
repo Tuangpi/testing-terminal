@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: example-terminal-backend
+    env: ruby
+    region: oregon
+    plan: free
+    buildCommand: bundle install
+    startCommand: bundle exec ruby web.rb
+    envVars:
+      - key: sk_test_51NuoO1IpVcs5xQojmNVvfbJSGMzu6ICD7HZPJMVSDM8XpA8g8X3hZENzhhullavFNmvxWptSLMuxCrLHfjLzzh8700LDRRR8g0
+        sync: false # placeholder for a value to be added in the dashboard
