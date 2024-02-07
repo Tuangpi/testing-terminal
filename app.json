@@ -12,7 +12,7 @@
   ],
   "env": {
     "STRIPE_TEST_SECRET_KEY": {
-      "description": "sk_test_51NuoO1IpVcs5xQojmNVvfbJSGMzu6ICD7HZPJMVSDM8XpA8g8X3hZENzhhullavFNmvxWptSLMuxCrLHfjLzzh8700LDRRR8g0",
+      "description": "",
       "required": true
     }
   }
